@@ -1,33 +1,29 @@
-/* FUENTES */
-@font-face {
-    font-family: "Roboto";
-    src: url("../fonts/Roboto-Regular.woff") format("woff2");
+body{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
 }
 
-/* VARIABLES */
-:root {
-    --color-primario: #ff0000;
-    --color-secundario: #0000ff;
+form{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
-
-/* GENERAL */
-html {
+section{
+    display: flex;
+    flex-direction: column;
 }
-
-body {
+input{
+    padding: 8px;
+    width: 300px;
+    color: blue;
 }
-
-.header {
-    &__logo {
-    }
-    &__imagen {
-    }
-    &__menu {
-    }
+button{
+    padding: 8px;
+    font-size: 20px;
 }
-.main {
-}
-.footer {
-    &__copy {
-    }
+::placeholder{
+    color : red;
 }
